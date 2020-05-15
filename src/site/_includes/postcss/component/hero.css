@@ -1,0 +1,19 @@
+.Hero {
+  display: flex;
+  height: 30em;
+
+  background: #ccc;
+
+  background-size: cover;
+
+  > .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > h1 {
+      font-size: 3em;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&family=Playfair+Display:wght@500&display=swap");
+
+$font-sans: Montserrat;
+$font-serif: "Playfair Display";
+$font-cursive: "Great Vibes";
+
+.font-sans {
+  font-family: $font-sans sans-serif;
+}
+
+.font-serif {
+  font-family: $font-serif serif;
+}
+
+.font-cursive {
+  font-family: $font-cursive cursive;
+}
