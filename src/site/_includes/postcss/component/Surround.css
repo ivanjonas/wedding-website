@@ -1,0 +1,29 @@
+.Surround {
+  margin: 3rem 0;
+
+  .content {
+    text-align: center;
+
+    p {
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      margin: 1em 0;
+      font-size: 2rem;
+    }
+  }
+
+  .background-image {
+    height: 6rem;
+    background-size: contain;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+
+    &:last-of-type {
+      transform: rotate(180deg);
+    }
+  }
+}
