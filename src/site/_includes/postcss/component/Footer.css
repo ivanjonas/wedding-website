@@ -1,0 +1,23 @@
+.Footer {
+    background-color: #e9e9e1;
+    margin-top: 6em;
+    padding: 1em 2em 1.5em;
+    
+    @media (min-width: $mid) {
+        text-align: left;
+    }
+
+    &-bigName {
+        font-size: 2em;
+    }
+
+    a:link,
+    a:visited {
+        border-bottom: solid 1px transparent;
+    }
+    a:hover,
+    a:focus {
+        color: $text-color;
+        border-bottom: solid 1px $text-color;
+    }
+}

@@ -1,14 +1,23 @@
-<header>
+<header class="Header">
+  <div class="Header-logotype font-serif">
+    <div class="container">
+      <span class="">I</span>
+      <span class="Header-logotype-ampersand ">&amp;</span>
+      <span class="">S</span>
+    </div>
+  </div>
+  {# <p>{{ title }}</p> #}
+  {# {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %} #}
+</header>
+<div class="Nav">
   <div class="container">
-    <ul class="nav">
-      <li>
-        <a href="/">home<small>where the heart is</small></a>
+    <ul class="Nav-list">
+      <li class="Nav-list-item">
+        <a href="/">home</a>
       </li>
-      <li>
-        <a href="/about">about<small>all about this</small></a>
+      <li class="Nav-list-item">
+        <a href="/about">about</a>
       </li>
     </ul>
-    {# <p>{{ title }}</p> #}
-    {# {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %} #}
   </div>
-</header>
+</div>
