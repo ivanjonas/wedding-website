@@ -1,6 +1,8 @@
 /* breakpoints for media queries */
 $narrow: 400px;
+$narrowMax: 399.98px;
 $mid: 740px;
+$midMax: 739.98px;
 $wide: 1200px;
 
 /* colours */
@@ -8,3 +10,4 @@ $page-color: #ffffff;
 $text-color: #090909;
 $accent-color: #27a4de;
 $dark-color: #000000;
+$headerFooterColor: #e9e9e1;

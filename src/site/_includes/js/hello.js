@@ -1,3 +1,4 @@
-btnHandler('.btn-log', function(){
-  console.log('👋 Oh, hello there!');
-});
+var button = document.querySelector('.js-navMobileToggle');
+button.addEventListener('click', function (event) {
+  toggleMobileMenu();
+})

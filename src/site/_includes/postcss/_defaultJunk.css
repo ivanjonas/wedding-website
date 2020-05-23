@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 ::-moz-selection {
   background-color: $text-color;
@@ -21,6 +22,7 @@ body {
   font-size: min(max(1rem, calc(1rem + 6 * ((100vw - $minWidth) / $maxWidth))), 20px);
   line-height: 1.8;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 .container {
   margin-left: auto;
