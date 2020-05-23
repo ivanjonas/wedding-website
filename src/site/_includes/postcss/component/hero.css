@@ -1,6 +1,13 @@
 .Hero {
   display: flex;
-  height: 30em;
+  height: 20em;
+
+  @media (min-width: $mid) {
+    height: 24em;
+  }
+  @media (min-width: $wide) {
+    height: 30em;
+  }
 
   background: #ccc;
 
@@ -14,6 +21,7 @@
     > h1 {
       font-size: 3em;
       color: white;
+      user-select: none;
     }
   }
 }
