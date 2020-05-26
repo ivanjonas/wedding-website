@@ -2,16 +2,18 @@
   display: flex;
   height: 20em;
 
+  background-color: #ccc;
+  background-size: cover;
+  background-position: 50%;
+  max-width: 1600px;
+  margin: 0 auto;
+
   @media (min-width: $mid) {
     height: 24em;
   }
   @media (min-width: $wide) {
     height: 30em;
   }
-
-  background: #ccc;
-
-  background-size: cover;
 
   > .container {
     display: flex;
@@ -21,6 +23,8 @@
     > h1 {
       font-size: 3em;
       color: white;
+      text-shadow: 2px 0px 3px black;
+      text-shadow: 2px 0px 3px black, -1px 0px 4px #eeeeee55;
       user-select: none;
     }
   }
