@@ -78,11 +78,15 @@
     &-list {
       display: block;
       padding-left: 0;
-      margin-left: -.8em;
 
       &-item {
         display: block;
         text-align: left;
+
+        a:link,
+        a:visited {
+          padding: 0.7em 0 0;
+        }
       }
     }
 
