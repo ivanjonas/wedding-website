@@ -70,8 +70,9 @@
 
     &-mobileMenuHeader {
       display: flex;
-      height: 3.4em;
+      height: 3.8em;
       align-items: center;
+      font-family: $font-serif serif;
     }
 
     &-list {
@@ -112,7 +113,7 @@
   background-color: $headerFooterColor;
 
   @media (max-width: #{$midMax}) {
-    position: fixed;
+    position: absolute;
     display: block;
     top: 1rem;
     right: 1rem;
