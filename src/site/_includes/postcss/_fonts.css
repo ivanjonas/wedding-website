@@ -13,5 +13,5 @@ $font-cursive: "Great Vibes";
 }
 
 .font-cursive {
-  font-family: $font-cursive cursive;
+  font-family: $font-cursive Arial sans-serif;
 }
