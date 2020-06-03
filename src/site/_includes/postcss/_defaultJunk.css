@@ -26,7 +26,10 @@ body {
   color: mix($text-color, $page-color, 90%);
   font-family: sans-serif;
   font-weight: 300;
-  font-size: min(max(1rem, calc(1rem + 6 * ((100vw - $minWidth) / $maxWidth))), 20px);
+  font-size: min(
+    max(1rem, calc(1rem + 6 * ((100vw - $minWidth) / $maxWidth))),
+    20px
+  );
   line-height: 1.8;
   min-height: 100vh;
   overflow-x: hidden;

@@ -1,23 +1,23 @@
 .Footer {
-    background-color: $headerFooterColor;
-    margin-top: 6em;
-    padding: 1em 2em 1.5em;
-    
-    @media (min-width: $mid) {
-        text-align: left;
-    }
+  background-color: $headerFooterColor;
+  margin-top: 3em;
+  padding: 1em 2em 1.5em;
 
-    &-bigName {
-        font-size: 2em;
-    }
+  @media (min-width: $mid) {
+    text-align: left;
+  }
 
-    a:link,
-    a:visited {
-        border-bottom: solid 1px transparent;
-    }
-    a:hover,
-    a:focus {
-        color: $text-color;
-        border-bottom: solid 1px $text-color;
-    }
+  &-bigName {
+    font-size: 2em;
+  }
+
+  a:link,
+  a:visited {
+    border-bottom: solid 1px transparent;
+  }
+  a:hover,
+  a:focus {
+    color: $text-color;
+    border-bottom: solid 1px $text-color;
+  }
 }
