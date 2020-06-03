@@ -11,6 +11,13 @@
   background-color: $text-color;
   color: $page-color;
 }
+html {
+  overflow-x: hidden;
+
+  &.is-mobileMenu-open {
+    overflow-y: hidden;
+  }
+}
 body {
   $minWidth: 320px; /* in pixels */
   $maxWidth: 768; /* not in pixels */
@@ -110,10 +117,6 @@ code {
 .date {
   font-size: 0.8em;
   font-style: italic;
-}
-
-main {
-  margin-top: 4em;
 }
 
 pre {

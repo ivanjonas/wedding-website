@@ -2,7 +2,6 @@
 title: Ivan & Stacy
 subtitle: 
 layout: layouts/hero.njk
-bodyClass: ExtraStuff
 ---
 
 {% import "hero.njk" as hero %}
