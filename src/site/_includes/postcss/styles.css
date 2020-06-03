@@ -1,8 +1,9 @@
 @import "_variables.css";
 @import "_fonts.css";
 @import "_defaultJunk.css";
+@import "_layout.css";
 @import "component/Header.css";
 @import "component/Footer.css";
 @import "component/hero.css";
 @import "component/Surround.css";
-@import "_utility.css"
+@import "_utility.css";
