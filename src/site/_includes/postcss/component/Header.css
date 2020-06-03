@@ -112,9 +112,18 @@
   overflow: visible;
   text-transform: none;
   box-sizing: content-box;
+  transition: background-color 250ms ease;
 
   display: none;
   background-color: $headerFooterColor;
+
+  &::-moz-focus-inner {
+    border: 0;
+  }
+
+  &:hover {
+    background-color: color($headerFooterColor lightness(-10%));
+  }
 
   @media (max-width: #{$midMax}) {
     position: absolute;
