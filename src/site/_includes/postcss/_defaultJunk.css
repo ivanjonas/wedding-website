@@ -34,17 +34,6 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  @media (min-width: $mid) {
-    width: 600px;
-  }
-  @media (min-width: $wide) {
-    width: 700px;
-  }
-}
 
 h1,
 h2,
@@ -131,5 +120,24 @@ pre {
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+/* gonna collect random bits here. That's what the file is, after all. */
+.pipe-spacer {
+  padding: 0 1em;
+}
+
+.leftAndRight {
+  display: flex;
+
+  .left {
+    text-align: right;
+    flex: 1 0 0px;
+  }
+
+  .right {
+    text-align: left;
+    flex: 1 0 0px;
   }
 }
