@@ -16,14 +16,7 @@
     }
   }
 
-  .background-image {
-    height: 6rem;
-    background-size: contain;
-    background-position-x: 50%;
-    background-repeat: no-repeat;
-
-    &:last-of-type {
-      transform: rotate(180deg);
-    }
+  .Olive:last-of-type {
+    transform: rotate(180deg);
   }
 }
