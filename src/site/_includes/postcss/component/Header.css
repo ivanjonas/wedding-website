@@ -20,6 +20,15 @@
       justify-content: center;
     }
 
+    &-homeLink {
+      padding: 0 1rem;
+      margin: 0 -1rem;
+      &:link,
+      &:visited {
+        border-bottom: none;
+      }
+    }
+
     &-ampersand {
       opacity: 0.5;
       margin: 0 0.25em;
