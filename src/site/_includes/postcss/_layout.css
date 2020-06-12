@@ -21,10 +21,6 @@ body {
   margin-right: auto;
   width: 90%;
 
-  @media (min-width: $mid) {
-    width: 768px;
-  }
-
   @media (min-width: $wide) {
     width: 1080px;
   }
