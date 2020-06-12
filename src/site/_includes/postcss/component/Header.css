@@ -30,7 +30,7 @@
 .Nav {
   position: sticky;
   top: 0;
-  padding: 0.5rem 0;
+  padding: 0;
   background-color: $headerFooterColor;
   z-index: 1;
 
@@ -81,18 +81,21 @@
     height: 100%;
     left: 100%;
     width: calc(100% - 6em);
-    transition: transform 250ms ease-out;
+    transition: transform 250ms ease-out, box-shadow 250ms ease;
 
     &-mobileMenuHeader {
       display: flex;
-      height: 3.8em;
+      height: 4rem;
       align-items: center;
       font-family: $font-serif serif;
+      padding-left: 7%;
+      border-bottom: 1px solid #d1d1ca;
     }
 
     &-list {
       display: block;
       padding-left: 0;
+      padding-left: 7%;
 
       &-item {
         display: block;
@@ -107,6 +110,7 @@
 
     &.is-open {
       transform: translateX(-100%);
+      box-shadow: -3px 6px 36px 11px rgba(77, 66, 44, 0.51);
     }
   }
 }
