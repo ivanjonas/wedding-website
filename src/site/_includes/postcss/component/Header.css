@@ -1,22 +1,28 @@
 .Header {
   background-color: $headerFooterColor;
-  display: none;
+  height: 4rem; /* TODO */
 
   @media (min-width: $mid) {
     display: block;
   }
 
   &-logotype {
+    display: flex;
+    height: 100%;
+    padding: 0 1em 0.2em;
+    align-items: center;
+
     font-size: 1.75rem;
-    text-align: center;
     user-select: none;
 
     @media (min-width: $mid) {
       padding: 0.5rem 0 0;
+      justify-content: center;
     }
 
     &-ampersand {
       opacity: 0.5;
+      margin: 0 0.25em;
     }
   }
 }
@@ -137,8 +143,8 @@
   @media (max-width: #{$midMax}) {
     position: absolute;
     display: block;
-    top: 1rem;
-    right: 1rem;
+    top: 0.5rem;
+    right: 0.5rem;
     width: 1em;
     height: 1em;
     padding: 1rem;
