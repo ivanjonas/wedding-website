@@ -58,6 +58,10 @@
         color: $text-color;
         border-bottom-color: $text-color;
       }
+      a.active {
+        color: #929a54;
+        border-bottom: 1px solid #929a54;
+      }
     }
   }
 
