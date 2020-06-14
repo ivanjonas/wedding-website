@@ -1,61 +1,41 @@
 ---
 title: Ivan & Stacy - Accommodations
-subtitle: 
+subtitle:
 layout: layouts/hero.njk
 ---
 
 <div class="page">
     <div class="container">
-        <div>
-            <h2>Courtyard by Marriott</h2>
-            <p>
-                We have a special rate of $119 per night, plus a 13% tax. Please book before August 13 to ensure availability.
-            </p>
-            <div class="leftAndRight">
-                <div class="left">
-                    <a class="left" href="https://www.marriott.com/hotels/travel/cltsb-courtyard-salisbury/">Hotel Website</a>
+        <div class="twoCards">
+            <div class="card">{% include "hotels/marriott-courtyard.njk" %}</div>
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://images.trvl-media.com/hotels/1000000/20000/10400/10348/7c7d51e8_z.jpg')"></div>
+                <h2 class="card-title">Hampton Inn</h2>
+                <p class="card-description">
+                    No special rate or reserved block.
+                </p>
+                <div class="leftAndRight">
+                    <div class="left">
+                        <a class="left" href="https://www.hilton.com/en/hotels/slbjahx-hampton-salisbury">Hotel Website</a>
+                    </div>
+                    <span class="middle pipe-spacer">|</span> 
+                    <div class="right">
+                        <a href="tel:+1-704-637-8000">(704) 637-8000</a>
+                    </div>
                 </div>
-                <span class="middle pipe-spacer">|</span> 
-                <div class="right">
-                    <a href="tel:+1-704-680-9201">(704) 680-9201</a>
-                </div>
-            </div>
-            <div class="leftAndRight">
-                <div class="left">
-                    <a href="https://goo.gl/maps/VHW3TYexjjY9fzZT7">Google Maps</a>
-                </div>
-                <span class="middle pipe-spacer">|</span>
-                <div class="right">
-                    <a href="https://maps.apple.com/?address=120%20Marriott%20Cir,%20Salisbury,%20NC%20%2028144-2636,%20United%20States&auid=725302051922116563&ll=35.658304,-80.462481&lsp=9902&q=Courtyard%20by%20Marriott%20Salisbury&_ext=ChkKBQgEEOIBCgQIBRADCgQIBhALCgQIChAAEiYppOmiyKvTQUAxIHL53fIdVMA5Ir/IJNLUQUBBSg5+uT0dVMBQAw%3D%3D&t=m">Apple Maps</a>
-                </div>
-            </div>
-        </div>
-        <div>
-            <h2>Hampton Inn</h2>
-            <p>
-                No special rate or reserved block.
-            </p>
-            <div class="leftAndRight">
-                <div class="left">
-                    <a class="left" href="https://www.hilton.com/en/hotels/slbjahx-hampton-salisbury">Hotel Website</a>
-                </div>
-                <span class="middle pipe-spacer">|</span> 
-                <div class="right">
-                    <a href="tel:+1-704-637-8000">(704) 637-8000</a>
-                </div>
-            </div>
-            <div class="leftAndRight">
-                <div class="left">
-                    <a href="https://goo.gl/maps/R68t3eCEh1kyXf838">Google Maps</a>
-                </div>
-                <span class="middle pipe-spacer">|</span>
-                <div class="right">
-                    <a href="https://maps.apple.com/?address=1001%20Klumac%20Rd,%20Salisbury,%20NC%20%2028147,%20United%20States&auid=9553076015754948972&ll=35.642231,-80.484909&lsp=9902&q=Hampton%20Inn%20Salisbury&_ext=ChkKBQgEEOIBCgQIBRADCgQIBhALCgQIChAAEiYpzh1Y2p/RQUAxCNYiXmMfVMA5TPN9NsbSQUBB2F3vQq4eVMBQAw%3D%3D&t=m">Apple Maps</a>
+                <div class="leftAndRight">
+                    <div class="left">
+                        <a href="https://goo.gl/maps/R68t3eCEh1kyXf838">Google Maps</a>
+                    </div>
+                    <span class="middle pipe-spacer">|</span>
+                    <div class="right">
+                        <a href="https://maps.apple.com/?address=1001%20Klumac%20Rd,%20Salisbury,%20NC%20%2028147,%20United%20States&auid=9553076015754948972&ll=35.642231,-80.484909&lsp=9902&q=Hampton%20Inn%20Salisbury&_ext=ChkKBQgEEOIBCgQIBRADCgQIBhALCgQIChAAEiYpzh1Y2p/RQUAxCNYiXmMfVMA5TPN9NsbSQUBB2F3vQq4eVMBQAw%3D%3D&t=m">Apple Maps</a>
+                    </div>
                 </div>
             </div>
         </div>
         <div>
-            <h2>Holiday Inn Express & Suites</h2>
+            <h2 class="card-title">Holiday Inn Express & Suites</h2>
             <p>
                 No special rate or reserved block. Newly renovated.
             </p>
@@ -79,7 +59,7 @@ layout: layouts/hero.njk
             </div>
         </div>
         <div>
-            <h2>Comfort Suites</h2>
+            <h2 class="card-title">Comfort Suites</h2>
             <p>
                 No special rate or reserved block.
             </p>
@@ -103,7 +83,7 @@ layout: layouts/hero.njk
             </div>
         </div>
         <div>
-            <h2>Days Inn by Wyndham</h2>
+            <h2 class="card-title">Days Inn by Wyndham</h2>
             <p>
                 No special rate or reserved block.
             </p>
@@ -127,7 +107,7 @@ layout: layouts/hero.njk
             </div>
         </div>
         <div>
-            <h2>Super 8 by Wyndham</h2>
+            <h2 class="card-title">Super 8 by Wyndham</h2>
             <p>
                 No special rate or reserved block.
             </p>
@@ -151,7 +131,7 @@ layout: layouts/hero.njk
             </div>
         </div>
         <!-- <div>
-            <h2>
+            <h2 class="card-title">
                 Other options
             </h2>
             <p>
