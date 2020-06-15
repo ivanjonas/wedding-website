@@ -1,7 +1,7 @@
 .twoCards {
   display: flex;
   flex-flow: row wrap;
-  margin: -1rem;
+  margin: -1rem -1rem 1rem;
 
   .card {
     flex-basis: calc(100% - 2rem);
