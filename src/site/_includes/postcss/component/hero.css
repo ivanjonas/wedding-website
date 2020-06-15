@@ -1,4 +1,5 @@
 .Hero {
+  position: relative;
   display: flex;
   height: 20em;
 
@@ -27,5 +28,13 @@
       text-shadow: 2px 0px 3px black, -1px 0px 4px #eeeeee55;
       user-select: none;
     }
+  }
+
+  &-credit {
+    position: absolute;
+    bottom: -1.6em;
+    right: 0.8rem;
+    font-size: 0.9rem;
+    color: #797975 !important;
   }
 }

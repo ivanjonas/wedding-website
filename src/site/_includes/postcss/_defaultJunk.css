@@ -88,10 +88,10 @@ a:focus {
   border-bottom-color: $text-color;
 }
 
-.nakedLink a:link,
-.nakedLink a:visited,
-.nakedLink a:hover,
-.nakedLink a:focus {
+.nakedLink:link,
+.nakedLink:visited,
+.nakedLink:hover,
+.nakedLink:focus {
   border-bottom-style: none;
 }
 code {
