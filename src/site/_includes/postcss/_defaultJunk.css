@@ -122,22 +122,3 @@ pre {
     padding-right: 0;
   }
 }
-
-/* gonna collect random bits here. That's what the file is, after all. */
-.pipe-spacer {
-  padding: 0 1em;
-}
-
-.leftAndRight {
-  display: flex;
-
-  .left {
-    text-align: right;
-    flex: 1 0 0px;
-  }
-
-  .right {
-    text-align: left;
-    flex: 1 0 0px;
-  }
-}
