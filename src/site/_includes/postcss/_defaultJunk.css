@@ -40,8 +40,8 @@ h2,
 h3 {
   color: $text-color;
   font-weight: 600;
-  margin-top: 2.5em;
-  margin-bottom: 0.2em;
+  margin-top: 2.2em;
+  padding: 0.3em;
   line-height: 1;
 }
 h1 {
@@ -121,4 +121,8 @@ pre {
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+.asterisk {
+  color: $color-alarm;
 }
