@@ -12,6 +12,6 @@ layout: layouts/hero.njk
             <a href="https://www.amazon.com/wedding/share/jonaswedding" target="_blank">View our gift registry at Amazon.com</a>
         </p>
         <h2>Honeymoon Fund</h2>
-        <p>If you'd like to help us with our honeymoon and/or move to Seattle, we have <a href="https://paypal.me/pools/c/8qh9N2pcMe">a honeymoon fund on PayPal</a>.</p>
+        <p>If you'd like to help us with our honeymoon and/or move to Seattle, we have <a href="https://paypal.me/pools/c/8rjBe9crVc">a honeymoon fund on PayPal</a>.</p>
     </div>
 </div>
