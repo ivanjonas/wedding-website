@@ -30,10 +30,10 @@ layout: layouts/hero.njk
         var els = document.querySelectorAll('.js-countdown-text');
         if (!els || els.length === 0) { return; }
         for (var el of els) {
-            var weddingDatePlusOne = new Date('2020-09-20');
+            var weddingDate = new Date('2020-09-19T00:00:00-0400');
             var now = new Date();
             now.setHours(0, 0, 0);
-            var days = Math.floor((weddingDatePlusOne - now) / 1000 / 60 / 60 / 24);
+            var days = Math.floor((weddingDate - now) / 1000 / 60 / 60 / 24);
             var plural = days !== 1;
             var modifier = days <= 10 ? ' only' : ''
             var verb = plural ? 'are' : 'is';
