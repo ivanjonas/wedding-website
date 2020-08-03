@@ -28,15 +28,9 @@
     .card-title {
       margin: 2rem 1rem 0;
     }
-    .card-description {
-      flex-grow: 1;
-      margin-left: 1rem;
-      margin-right: 1rem;
-    }
     .card-links {
       font-size: 0.9em;
-      margin-left: 1rem;
-      margin-right: 1rem;
+      margin: 1rem 1rem 0;
     }
   }
 }
