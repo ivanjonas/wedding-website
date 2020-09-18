@@ -24,7 +24,6 @@ layout: layouts/hero.njk
         </ul>
         <h2 id="live-stream">Live Streaming</h2>
         <p>Because many people may not be able to attend due to health concerns or international travel restrictions, we will be streaming the ceremony. Keep an eye on this website. A link and instructions will be posted here as we move closer to the date.</p>
-        <p class="js-countdown-text"></p>
     </span>
 </div>
 <script>
